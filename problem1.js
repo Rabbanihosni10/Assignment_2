@@ -15,7 +15,3 @@ function matchWinner(teamAGoals, teamBGoals) {
     return "Invalid";
   }
 }
-console.log(matchWinner(2,1))
-console.log(matchWinner(1,3))
-console.log(matchWinner(2,2))
-console.log(matchWinner("3",2))

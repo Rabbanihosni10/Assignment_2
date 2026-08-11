@@ -28,9 +28,3 @@ function averageResponseTime(times) {
     }
     // return total / times;
 }
-
-console.log(averageResponseTime([120, 200, 150, 130]))
-console.log(averageResponseTime([100,100]))
-console.log(averageResponseTime([]))
-console.log(averageResponseTime("[120, 200, 150, 130]"))
-console.log(averageResponseTime([120, 200, 150, "130"]))

@@ -18,9 +18,3 @@ function isElevatorSafe(weights){
     }
 }
 
-console.log(isElevatorSafe([64,23,24,50]));
-console.log(isElevatorSafe([60, 75, 50]));
-console.log(isElevatorSafe([90, 100, 95, 120]));
-console.log(isElevatorSafe([400]));
-console.log(isElevatorSafe("60,75,50"));
-
