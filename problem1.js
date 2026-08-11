@@ -1,6 +1,6 @@
 function matchWinner(teamAGoals, teamBGoals) {
     // console.log(typeof teamAGoals, typeof teamBGoals);
-    if((typeof teamAGoals==="number") && (typeof teamBGoals==="number") ){
+  if((typeof teamAGoals==="number") && (typeof teamBGoals==="number")){
       if(teamAGoals>teamBGoals){
         return "Team A Won";
       }
